@@ -90,10 +90,6 @@ function App() {
               path="/addFurniture"
               element={user?.type === "admin" ? <AddFurniture /> : <NotFound />}
             />
-            {/* <Route
-              path="/addVoucher"
-              element={user?.type === "admin" ? <AddVoucher /> : <NotFound />}
-            /> */}
             <Route path="/*" element={<NotFound />} />
           </Routes>
         </Suspense>
