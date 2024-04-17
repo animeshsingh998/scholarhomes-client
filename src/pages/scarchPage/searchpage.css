@@ -1,0 +1,31 @@
+.searchPage {
+    width: 100%;
+    height: 100%;
+}
+
+.searchPage h1 {
+    font-family: var(--montserrat);
+    text-align: center;
+}
+
+.sFilters {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.sFilter {
+    background-color: transparent;
+    color: var(--primary-col-one);
+    border-radius: 10px;
+    border: 1px solid var(--primary-col-one);
+    cursor: pointer;
+    padding: 10px 15px;
+    font-family: var(--montserrat);
+}
+
+.sFilter.activeFilter {
+    background-color: var(--primary-col-one);
+    color: white;
+    border: none;
+}

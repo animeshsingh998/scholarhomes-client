@@ -1,0 +1,34 @@
+.returnPage {
+    width: 70%;
+    height: 100vh;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-family: var(--montserrat);
+    margin-top: 20px;
+}
+
+.returnPage h1 {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.returnPage h3 {
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+.retSec h2 {
+    font-size: 1.7rem;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+.returnPage ul {
+    font-size: 1.3rem;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}

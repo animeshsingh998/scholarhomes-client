@@ -1,0 +1,93 @@
+.loginPage {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary-col-four);
+}
+
+.loginFormContainer {
+    width: 30vw;
+    min-height: 60vh;
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 5px 1px 20px rgba(0, 0, 0, 0.301);
+}
+
+.loginFormContainer>h1 {
+    text-align: center;
+    color: var(--primary-col-one);
+    font-family: var(--montserrat);
+    font-size: 30px;
+    margin: 25px 0;
+    background-image: linear-gradient(100deg, var(--primary-col-two), var(--primary-col-one));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.loginFormContainer form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.inputEle {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.inputEle label {
+    font-size: 25px;
+    font-family: var(--quickSand);
+}
+
+.inputEle input {
+    padding: 10px 15px;
+    outline: none;
+}
+
+.loginFormContainer form button {
+    background-color: var(--primary-col-two);
+    color: black;
+    padding: 10px 15px;
+    font-family: var(--montserrat);
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 700ms;
+}
+
+.loginFormContainer form button:hover {
+    background-color: var(--primary-col-one);
+    color: var(--primary-col-four);
+}
+
+.formExtra {
+    margin-top: 30px;
+    text-align: center;
+    transition: font-weight 200ms ease-in-out;
+}
+
+.formExtra a {
+    font-size: 15px;
+    font-family: var(--quickSand);
+    color: var(--primary-col-one);
+
+}
+
+.formExtra a:hover {
+    font-weight: bold;
+}
+
+@media (max-width: 640px) {
+    .loginFormContainer {
+        width: 95vw;
+    }
+
+    .inputEle {
+        gap: 12px;
+    }
+}

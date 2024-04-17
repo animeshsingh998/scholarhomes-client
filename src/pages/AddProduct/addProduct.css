@@ -1,0 +1,54 @@
+.addProduct {
+    min-height: 100vh;
+    width: 100%;
+    background-color: var(--primary-col-four);
+    padding: 20px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.apContainer {
+    background-color: var(--primary-col-three);
+    padding: 30px 60px;
+    min-height: 60vh;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+}
+
+.apContainer h1 {
+    font-family: var(--quickSand);
+    text-align: center;
+}
+
+.apContainer form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.apContainer form button {
+    height: 40px;
+    background-color: var(--primary-col-one);
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+}
+
+.apContainer form button:hover {
+    opacity: 0.9;
+}
+
+@media (max-width: 640px) {
+    .apContainer{
+        width: auto;
+        height: auto;
+    }
+    .addProduct{
+        align-items: normal;
+    }
+}

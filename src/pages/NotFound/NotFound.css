@@ -1,0 +1,21 @@
+.notFound, .notFoundRes {
+    height: calc(100vh - 60px);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.notFound, .notFoundRes h1 {
+    font-family: var(--montserrat);
+}
+
+.notFound, .notFoundRes a {
+    font-family: var(--quickSand);
+    font-size: 20px;
+}
+
+.notFound, .notFoundRes a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,25 @@
+.thankPage{
+    width: 80%;
+    height: calc(100vh - 60px);
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    font-family: var(--montserrat);
+}
+
+.thankPage img{
+    width: 30%;
+}
+
+.thankPage span{
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.thankPage a{
+    font-size: 2rem;
+    text-align: center;
+    text-decoration: underline;
+}

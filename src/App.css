@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Quicksand:wght@100;300;700&display=swap');
+
+:root {
+  --primary-col-one: #112D4E;
+  --primary-col-two: #3F72AF;
+  --primary-col-three: #DBE2EF;
+  --primary-col-four: #F9F7F7;
+  --montserrat: 'Montserrat', sans-serif;
+  --quickSand: 'Quicksand', sans-serif;
+}
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+button:disabled {
+  background-color: gray !important;
+  color: black !important;
+  cursor: not-allowed !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+.primaryBtn {
+  padding: 10px 30px;
+  margin: 20px 0;
+  border-radius: 5px;
+  border: 1px solid black;
+  background-color: var(--primary-col-one);
+  color: var(--primary-col-four);
+  transition: all 0.2s ease-in;
+  cursor: pointer;
+}
+
+.primaryBtn:disabled {
+  background-color: gray;
+  color: black;
+  cursor: not-allowed;
+}
+
+.delBtn {
+  padding: 7px 12px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.notFoundRes {
+  display: none !important;
+}
+
+.pcBox {
+  text-align: center;
+  font-family: var(--quickSand);
+}
+
+
+
+@media (max-width: 640px) {
+  .mainApp {
+    display: none !important;
+  }
+
+  .notFoundRes {
+    display: block !important;
+  }
+}

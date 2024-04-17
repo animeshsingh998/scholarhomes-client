@@ -1,0 +1,157 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    background-color: var(--primary-col-one);
+    padding: 10px 20px;
+    overflow-x: hidden;
+}
+
+.lftSide {
+    display: flex;
+    align-items: center;
+}
+
+.lftSide a {
+    font-size: 25px;
+    color: var(--primary-col-four);
+    font-family: var(--montserrat)
+}
+
+.usrPro{
+    color: white;
+    font-size: 1rem;
+    background-color: var(--primary-col-two);
+    transition: all 0.3s ease-in;
+}
+.usrPro:hover{
+    color: black;
+    background-color: var(--primary-col-three);
+}
+
+.rgtSide {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+}
+
+.signin {
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: var(--primary-col-four);
+    color: black;
+    border: none;
+    cursor: pointer;
+    transition: all 700ms;
+    font-family: var(--quickSand);
+    font-weight: 600;
+
+}
+
+.signin:hover {
+    background-color: var(--primary-col-one);
+    color: var(--primary-col-four);
+    border: 1px solid var(--primary-col-four);
+    cursor: pointer;
+
+}
+
+.signOut {
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: var(--primary-col-four);
+    border: 1px solid var(--primary-col-four);
+    cursor: pointer;
+    transition: all 700ms;
+    font-family: var(--quickSand);
+}
+
+.createTskBtn {
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: var(--primary-col-four);
+    color: black;
+    border: none;
+    cursor: pointer;
+    transition: all 700ms;
+    font-family: var(--quickSand);
+    font-weight: 600;
+    margin-right: 20px;
+}
+
+.createTskBtn:hover {
+    background-color: var(--primary-col-one);
+    color: var(--primary-col-four);
+    border: 1px solid var(--primary-col-four);
+    cursor: pointer;
+}
+
+.signOut:hover {
+    background-color: var(--primary-col-two);
+    color: #fff;
+    border: 0.1px solid black;
+    cursor: pointer;
+}
+
+.profile {
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.rgtSide .profilePic {
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.dropDownMenu {
+    position: absolute;
+    background-color: var(--primary-col-two);
+    width: 100px;
+    align-items: center;
+    font-size: 20px;
+    top: 55px;
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: black;
+    border-radius: 7px;
+    padding: 10px;
+    z-index: 10;
+}
+
+.dDCancleBtn {
+    margin-left: 30px;
+}
+
+.userGreet {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.userGreet h3 {
+    color: var(--primary-col-four);
+    font-family: var(--quickSand);
+    margin-right: 10px;
+}
+
+
+@media (max-width: 640px) {
+    .rgtSide {
+        position: static;
+    }
+
+    .userGreet h3 {
+        display: none;
+    }
+
+}

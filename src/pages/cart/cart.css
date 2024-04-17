@@ -1,0 +1,128 @@
+.cartPage {
+    width: 100%;
+    min-height: 100vh;
+    background-color: var(--primary-col-four);
+    padding: 20px 100px;
+}
+
+.rett{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.rett input{
+    width: 20px;
+}
+
+.rpolicy{
+    background-color: var(--primary-col-one);
+    width: 40%;
+    height: 2rem;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--montserrat);
+}
+
+.cartPageContainer h2 {
+    text-align: center;
+    font-size: 25px;
+    margin: 20px 0;
+    font-weight: bolder;
+    font-family: var(--montserrat);
+}
+
+.checkOutContainer > h1{
+    text-align: center;
+    font-family: var(--montserrat);
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+}
+
+.cartHeader {
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 25px;
+    font-family: var(--quickSand);
+}
+
+.cartCard {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    width: 100%;
+    background-color: var(--primary-col-two);
+    border-bottom: 1px solid black;
+}
+
+.cartPageContainer h3 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 25px;
+    font-family: var(--quickSand);
+}
+
+.checkOut {
+    display: flex;
+    justify-content: end;
+}
+
+.checkOutContainer {
+    min-width: 30vw;
+    background-color: var(--primary-col-three);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    margin-top: 30px;
+    gap: 10px;
+}
+
+.coBox {
+    display: flex;
+    justify-content: space-between;
+    font-family: var(--montserrat);
+    gap: 30px;
+}
+
+.cooBox {
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+    gap: 10px;
+}
+
+.totalPrice {
+    font-size: 25px;
+    font-weight: bold;
+    border-top: 1px solid black;
+    padding-top: 10px;
+}
+
+.coBoxPrice {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.voucherSec {
+    display: flex;
+    height: 30px;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.voucherSec input{
+    height: 110%;
+    width: 70%;
+    padding: 0 30px;
+    outline: none;
+}
